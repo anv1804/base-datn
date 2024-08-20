@@ -1,0 +1,46 @@
+
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+    width: 3px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Background of the scrollbar track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888; /* Color of the scrollbar thumb */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color of the scrollbar thumb on hover */
+  }
+  
+  /* Style for Back to Top button */
+  .back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    background-color: #5cb0ff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    width: 40px !important;
+    height: 40px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+
+  /* BackToTop.css */
+  tr>th{
+    padding: 12px !important;
+    text-align: center !important
+  }
+  tr>td{
+    text-align: center !important;
+  }
+
+  
